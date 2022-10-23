@@ -289,6 +289,7 @@ print('The lowest of these probabilities was {:.2f}'.format(worst))
 
 
 
+
 print('Transpiled AND gate circuit for ibmq_vigo with input 0 0')
 print('\nThe circuit depth : {}'.format (qc_trans_all[0].depth()))
 print('# of nonlocal gates : {}'.format (qc_trans_all[0].num_nonlocal_gates()))
